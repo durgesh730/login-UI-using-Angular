@@ -1,0 +1,68 @@
+.login-slider{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.login .logo{
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+
+.login .logo span{
+   font-size: 1.3rem;
+}
+
+.login .logo .logofirst {
+   background-color: black;
+   color: white;
+   padding: .3rem;
+}
+
+.login-contents{
+    padding-top: 8rem;
+  text-align: center;
+}
+
+.login-contents .createAcccount{
+    font-size: 1.5rem;
+}
+
+.slider{
+    background-color: rgb(34, 34, 73);
+}
+
+.inputs{
+    padding-top: 2rem;
+}
+
+.inputs input{
+   border: 1px solid black;
+   font-size: 1.2rem;
+   border-radius: .2rem;
+   padding: 0.4rem 0.4rem;
+   width: 50%;
+}
+
+.inputs .sec{
+    padding-top: 1rem;
+}
+.sign-btn{
+    padding-top: 1rem;
+}
+
+.sign-btn button {
+    background-color: black;
+    width: 52%;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: .3rem;
+    padding: .8rem 0rem;
+    font-size: 1.2rem;
+}
+
+.text-last{
+   padding-top: 2rem;
+}
